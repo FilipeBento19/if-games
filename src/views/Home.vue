@@ -72,11 +72,11 @@ function mostrarAlerta(tituloJogo) {
     <input type="text" id="searchInput" placeholder="Pesquisar">
     <button onclick="pesquisar()"><img src="/public/Images/icons/procurar.png" alt=""></button>
     <ul>
-      <li><a href="#">Termos</a></li>
-      <li><a href="#">Equipe</a></li>
-      <li><a href="#">Envio</a></li>
+      <li><RouterLink to="/termo">Termos</RouterLink></li>
+      <li><RouterLink to="/equipe">Equipe</RouterLink></li>
+      <li><RouterLink to="/envio">Envio</RouterLink></li>
       <span>
-        <li><a href="#">Devoluções</a></li>
+        <li><RouterLink to="/devolucao">Devoluções</RouterLink></li>
       </span>
     </ul>
     <span class="carrinho-icon">
